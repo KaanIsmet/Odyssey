@@ -1,6 +1,6 @@
 # Odyssey: Pixel Gladiator Arena
 
-A 2D overhead gladiator combat game inspired by the Spartacus series, built with C++, OpenGL, and GLFW.
+A 2D overhead gladiator combat game inspired by epic tales of arena combat, built with C++, OpenGL, and GLFW.
 
 > **Current Status**: Sprint 1 - Rendering & Input Foundation
 
@@ -57,7 +57,7 @@ cmake ..
 make
 
 # Run
-./spartacus
+./odyssey
 ```
 
 ### macOS
@@ -85,13 +85,13 @@ cmake .. -DCMAKE_TOOLCHAIN_FILE=[vcpkg root]/scripts/buildsystems/vcpkg.cmake
 cmake --build .
 
 # Run
-.\Debug\spartacus.exe
+.\Debug\odyssey.exe
 ```
 
 ## Project Structure
 
 ```
-spartacus/
+odyssey/
 ├── src/
 │   ├── rendering/
 │   │   ├── Texture.h/cpp       # Texture loading and management
