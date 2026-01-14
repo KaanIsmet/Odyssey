@@ -98,6 +98,7 @@ odyssey: CMakeFiles/odyssey.dir/build.make
 odyssey: CMakeFiles/odyssey.dir/compiler_depend.ts
 odyssey: vcpkg_installed/x64-linux/debug/lib/libglfw3.a
 odyssey: vcpkg_installed/x64-linux/debug/lib/libglm.a
+odyssey: vcpkg_installed/x64-linux/debug/lib/libglad.a
 odyssey: /usr/lib/librt.a
 odyssey: /usr/lib/libm.so
 odyssey: CMakeFiles/odyssey.dir/link.txt

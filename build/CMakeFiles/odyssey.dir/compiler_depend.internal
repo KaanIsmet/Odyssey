@@ -3,6 +3,9 @@
 
 CMakeFiles/odyssey.dir/src/main.cpp.o
  /home/kaan/Desktop/projects/c++/Odyssey/src/main.cpp
+ /home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/include/GLFW/glfw3.h
+ /home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/include/KHR/khrplatform.h
+ /home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/include/glad/glad.h
  /usr/include/alloca.h
  /usr/include/asm-generic/bitsperlong.h
  /usr/include/asm-generic/errno-base.h
@@ -33,6 +36,8 @@ CMakeFiles/odyssey.dir/src/main.cpp.o
  /usr/include/bits/select.h
  /usr/include/bits/setjmp.h
  /usr/include/bits/stdint-intn.h
+ /usr/include/bits/stdint-least.h
+ /usr/include/bits/stdint-uintn.h
  /usr/include/bits/stdio_lim.h
  /usr/include/bits/stdlib-float.h
  /usr/include/bits/struct_mutex.h
@@ -192,6 +197,7 @@ CMakeFiles/odyssey.dir/src/main.cpp.o
  /usr/include/pthread.h
  /usr/include/sched.h
  /usr/include/stdc-predef.h
+ /usr/include/stdint.h
  /usr/include/stdio.h
  /usr/include/stdlib.h
  /usr/include/sys/cdefs.h
@@ -203,6 +209,7 @@ CMakeFiles/odyssey.dir/src/main.cpp.o
  /usr/include/wctype.h
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
 
 odyssey
  /usr/lib/Scrt1.o
@@ -224,6 +231,7 @@ odyssey
  /usr/lib/libmvec.so.1
  /usr/lib/librt.a
  /home/kaan/Desktop/projects/c++/Odyssey/build/CMakeFiles/odyssey.dir/src/main.cpp.o
+ /home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/debug/lib/libglad.a
  /home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/debug/lib/libglfw3.a
  /home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/debug/lib/libglm.a
 

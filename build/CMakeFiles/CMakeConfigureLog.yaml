@@ -3831,3 +3831,84 @@ events:
         - "/usr/include/X11"
       CMAKE_FIND_ROOT_PATH: "/home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/debug;/home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux"
 ...
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/kaan/.local/share/vcpkg/scripts/buildsystems/vcpkg.cmake:908 (_find_package)"
+      - "CMakeLists.txt:11 (find_package)"
+    name: "glad"
+    configs:
+      -
+        filename: "gladConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "glad-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "glad"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/gladConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/glad-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/share/glad/gladConfig.cmake"
+      mode: "config"
+      version: "0.1.36"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux"
+        - "/home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/debug"
+      ENV{PATH}:
+        - "/home/kaan/.local/share/vcpkg"
+        - "/home/kaan/.nvm/versions/node/v22.17.1/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/var/lib/flatpak/exports/bin"
+        - "/usr/lib/jvm/default/bin"
+        - "/opt/rocm/bin"
+        - "/opt/rocm/hip/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+        - "/home/kaan/.local/share/JetBrains/Toolbox/scripts"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_FIND_ROOT_PATH: "/home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux;/home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/debug"
+...

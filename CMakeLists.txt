@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(glfw3 CONFIG REQUIRED)
 find_package(glm CONFIG REQUIRED)
 find_package(Stb REQUIRED)
+find_package(glad CONFIG REQUIRED)
 
 # Collect source files
 file(GLOB_RECURSE SOURCES 
@@ -28,6 +29,7 @@ target_include_directories(odyssey PRIVATE
 target_link_libraries(odyssey PRIVATE 
     glfw
     glm::glm
+    glad::glad
 )
 
 # Copy assets to build directory
