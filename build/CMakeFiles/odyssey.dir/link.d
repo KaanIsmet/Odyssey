@@ -5,6 +5,7 @@ odyssey: \
   CMakeFiles/odyssey.dir/src/main.cpp.o \
   vcpkg_installed/x64-linux/debug/lib/libglfw3.a \
   vcpkg_installed/x64-linux/debug/lib/libglm.a \
+  vcpkg_installed/x64-linux/debug/lib/libglad.a \
   /usr/lib/librt.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libdl.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so \
@@ -46,6 +47,8 @@ CMakeFiles/odyssey.dir/src/main.cpp.o:
 vcpkg_installed/x64-linux/debug/lib/libglfw3.a:
 
 vcpkg_installed/x64-linux/debug/lib/libglm.a:
+
+vcpkg_installed/x64-linux/debug/lib/libglad.a:
 
 /usr/lib/librt.a:
 

@@ -40,3 +40,37 @@ Abi: 68af125abd8043965de381e25ea0028a53043d667409ec0c5b2463cf0c71aed4
 Description: public domain header-only libraries
 Status: install ok installed
 
+Package: egl-registry
+Version: 2025-05-27
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 08c8d3d7033d4022d8a366ff5c49da284fed1593fccf0bbbca74c343905a94cf
+Description: EGL API and Extension Registry
+Status: install ok installed
+
+Package: opengl-registry
+Version: 2025-10-23
+Depends: egl-registry
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 74058ab63f9403b2a5757f3951d12e9f771eeac4841b5ceeee49b0e5160e537e
+Description: OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry
+Status: install ok installed
+
+Package: glad
+Version: 0.1.36
+Depends: egl-registry, opengl-registry, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-linux
+Multi-Arch: same
+Abi: 30748b5a1b0ec74e8aa60117a9fd127e4b18c4a5b0fb4217347e3841e6e2d2bf
+Description: Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
+Default-Features: loader
+Status: install ok installed
+
+Package: glad
+Feature: loader
+Architecture: x64-linux
+Multi-Arch: same
+Description: Generate loader logic.
+Status: install ok installed
+

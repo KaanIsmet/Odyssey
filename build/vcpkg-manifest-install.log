@@ -1,33 +1,20 @@
 Detecting compiler hash for triplet x64-linux...
 Compiler found: /usr/bin/c++
-The following packages will be built and installed:
+The following packages are already installed:
+  * egl-registry:x64-linux@2025-05-27
+    glad[core,loader]:x64-linux@0.1.36
     glfw3:x64-linux@3.4#1
     glm:x64-linux@1.0.3
+  * opengl-registry:x64-linux@2025-10-23
     stb:x64-linux@2024-07-29#1
   * vcpkg-cmake:x64-linux@2024-04-23
   * vcpkg-cmake-config:x64-linux@2024-05-23
-Additional packages (*) will be modified to complete this operation.
-Restored 5 package(s) from /home/kaan/.cache/vcpkg/archives in 21.4 ms. Use --debug to see more details.
-Installing 1/5 vcpkg-cmake-config:x64-linux@2024-05-23...
-Elapsed time to handle vcpkg-cmake-config:x64-linux: 203 us
-vcpkg-cmake-config:x64-linux package ABI: a74a68f637443a4c9114e8241c1188c97e5bff62ced9f1e6ad75174ce99d5c01
-Installing 2/5 vcpkg-cmake:x64-linux@2024-04-23...
-Elapsed time to handle vcpkg-cmake:x64-linux: 132 us
-vcpkg-cmake:x64-linux package ABI: b4be007c08c668b80e68883a12c5e2d97c68cc5577102e152e34d8da6d6b0604
-Installing 3/5 glfw3:x64-linux@3.4#1...
-Elapsed time to handle glfw3:x64-linux: 255 us
-glfw3:x64-linux package ABI: 778b444e276d48e073987292d4a51145f6153261cc4fc5628bc507d07e5a88e2
-Installing 4/5 glm:x64-linux@1.0.3...
-Elapsed time to handle glm:x64-linux: 2.25 ms
-glm:x64-linux package ABI: fdf2f8b0dd3d7640f159ec891508a67dc77814c447fd3bad798697c9e46f0b84
-Installing 5/5 stb:x64-linux@2024-07-29#1...
-Elapsed time to handle stb:x64-linux: 388 us
-stb:x64-linux package ABI: 68af125abd8043965de381e25ea0028a53043d667409ec0c5b2463cf0c71aed4
-Installed contents are licensed to you by owners. Microsoft is not responsible for, nor does it grant any licenses to, third-party packages.
-Packages installed in this vcpkg installation declare the following licenses:
-(MIT OR CC-PDDC)
-MIT
-Zlib
+glad provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(glad CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE glad::glad)
+
 glfw3 provides CMake targets:
 
   # this is heuristically generated, and may not be correct
@@ -52,4 +39,4 @@ The package stb provides CMake targets:
 
     find_package(Stb REQUIRED)
     target_include_directories(main PRIVATE ${Stb_INCLUDE_DIR})
-All requested installations completed successfully in: 3.41 ms
+All requested installations completed successfully in: 69 us

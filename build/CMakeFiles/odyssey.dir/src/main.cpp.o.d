@@ -144,4 +144,10 @@ CMakeFiles/odyssey.dir/src/main.cpp.o: \
  /usr/include/c++/15.2.1/bits/locale_facets.tcc \
  /usr/include/c++/15.2.1/bits/basic_ios.tcc \
  /usr/include/c++/15.2.1/bits/ostream.tcc /usr/include/c++/15.2.1/istream \
- /usr/include/c++/15.2.1/bits/istream.tcc
+ /usr/include/c++/15.2.1/bits/istream.tcc \
+ /home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/include/glad/glad.h \
+ /home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/include/KHR/khrplatform.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/bits/stdint-least.h \
+ /home/kaan/Desktop/projects/c++/Odyssey/build/vcpkg_installed/x64-linux/include/GLFW/glfw3.h
