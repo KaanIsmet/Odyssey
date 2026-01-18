@@ -2,14 +2,14 @@ Package: vcpkg-cmake-config
 Version: 2024-05-23
 Architecture: x64-linux
 Multi-Arch: same
-Abi: a74a68f637443a4c9114e8241c1188c97e5bff62ced9f1e6ad75174ce99d5c01
+Abi: 0a99cf2f6397ebd30688fbdbd69604efe6292ee83c54d414b6a760e94431cc7c
 Status: install ok installed
 
 Package: vcpkg-cmake
 Version: 2024-04-23
 Architecture: x64-linux
 Multi-Arch: same
-Abi: b4be007c08c668b80e68883a12c5e2d97c68cc5577102e152e34d8da6d6b0604
+Abi: f76a62ef54129dcf7d3588ff1ade027c7ab438d978061e243de3a0984c15584b
 Status: install ok installed
 
 Package: glfw3
@@ -18,7 +18,7 @@ Port-Version: 1
 Depends: vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-linux
 Multi-Arch: same
-Abi: 778b444e276d48e073987292d4a51145f6153261cc4fc5628bc507d07e5a88e2
+Abi: 3850e9c37ca05ea4d8ccd584e9166a55f839dc5dcfcdb67f9979b8a17e9bf09c
 Description: GLFW is a free, Open Source, multi-platform library for OpenGL, OpenGL ES and Vulkan application development. It provides a simple, platform-independent API for creating windows, contexts and surfaces, reading input, handling events, etc.
 Status: install ok installed
 
@@ -27,7 +27,7 @@ Version: 1.0.3
 Depends: vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-linux
 Multi-Arch: same
-Abi: fdf2f8b0dd3d7640f159ec891508a67dc77814c447fd3bad798697c9e46f0b84
+Abi: 3d7c0a642ac488ae68641334b6c4205fea15c626bdb3d187458ff34b9b14e448
 Description: OpenGL Mathematics (GLM)
 Status: install ok installed
 
@@ -36,7 +36,7 @@ Version: 2024-07-29
 Port-Version: 1
 Architecture: x64-linux
 Multi-Arch: same
-Abi: 68af125abd8043965de381e25ea0028a53043d667409ec0c5b2463cf0c71aed4
+Abi: 26520a91367820ed7128c6b37b95b45ae615199c666da5ab7f66963d1fd551fd
 Description: public domain header-only libraries
 Status: install ok installed
 
@@ -44,7 +44,7 @@ Package: egl-registry
 Version: 2025-05-27
 Architecture: x64-linux
 Multi-Arch: same
-Abi: 08c8d3d7033d4022d8a366ff5c49da284fed1593fccf0bbbca74c343905a94cf
+Abi: cf807b9de474d213a8ca59463e9e62e7bb9c3e0a0178de232d06f42d35aba566
 Description: EGL API and Extension Registry
 Status: install ok installed
 
@@ -53,7 +53,7 @@ Version: 2025-10-23
 Depends: egl-registry
 Architecture: x64-linux
 Multi-Arch: same
-Abi: 74058ab63f9403b2a5757f3951d12e9f771eeac4841b5ceeee49b0e5160e537e
+Abi: d851ed4dd9bf701d2e463728c3dce1744b0fcb8e6721c9bf419adb61f68d4a7d
 Description: OpenGL, OpenGL ES, and OpenGL ES-SC API and Extension Registry
 Status: install ok installed
 
@@ -62,7 +62,7 @@ Version: 0.1.36
 Depends: egl-registry, opengl-registry, vcpkg-cmake, vcpkg-cmake-config
 Architecture: x64-linux
 Multi-Arch: same
-Abi: 30748b5a1b0ec74e8aa60117a9fd127e4b18c4a5b0fb4217347e3841e6e2d2bf
+Abi: 55a7768b3a07afc40c1846cb859ae3b7be01f8178bfbfd22bf8c118ad5a88d7e
 Description: Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.
 Default-Features: loader
 Status: install ok installed

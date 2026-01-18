@@ -1,5 +1,59 @@
 #include "Shader.h"
 
+namespace {
+    bool shaderSuccessful(unsigned int shader) {
+        int success, length = 512;
+        char infoLog[length];
+
+        glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
+        
+        if (!success) {
+            glGetShaderInfoLog(shader, length, NULL, infoLog);
+            std::cerr << "ERROR::SHADER::COMPILATION_FAILED\n"
+                << infoLog << std::endl;
+            return false;
+        }
+
+        return true;
+    }
+    unsigned int compileShader(unsigned int shaderType, const std::string& shaderSource) {
+        unsigned int shader = glCreateShader(shaderType);
+        const char* source = shaderSource.c_str();
+        glShaderSource(shader, 1, &source, NULL);
+        glCompileShader(shader);
+        
+        if (!shaderSuccessful(shader)) {
+                std::cerr << "Exiting applicaiton...\n";
+                glDeleteShader(shader);
+                return -1;
+        }
+
+        return shader;
+    }
+
+    bool programSuccessful(unsigned int program) {
+        int success, length = 512;
+        char infoLog[length];
+
+        glGetProgramiv(program, GL_LINK_STATUS, &success);
+
+        if (!success) {
+            glGetProgramInfoLog(program, length, NULL, infoLog);
+            std::cerr << "ERROR::PROGRAM::LINKED_FAILED\n"
+                << infoLog << std::endl;
+            return false;
+        }
+
+        return true;
+    }
+
+    std::string readFile(std::ifstream& file) {
+        std::stringstream ss;
+        ss << file.rdbuf();
+        return ss.str();
+    }
+}
+
 Shader::Shader(std::string& vertexPath, std::string& fragPath) {
     std::ifstream vertexFile{vertexPath};
     if (!vertexFile) {
@@ -49,56 +103,3 @@ Shader::~Shader() {
 }
 
 
-unsigned int compileShader(unsigned int shaderType, const std::string& shaderSource) {
-	unsigned int shader = glCreateShader(shaderType);
-    const char* source = shaderSource.c_str();
-	glShaderSource(shader, 1, &source, NULL);
-	glCompileShader(shader);
-	
-	if (!shaderSuccessful(shader)) {
-			std::cerr << "Exiting applicaiton...\n";
-			glDeleteShader(shader);
-			return -1;
-	}
-
-	return shader;
-}
-
-
-bool shaderSuccessful(unsigned int shader) {
-	int success, length = 512;
-	char infoLog[length];
-
-	glGetShaderiv(shader, GL_COMPILE_STATUS, &success);
-	
-	if (!success) {
-		glGetShaderInfoLog(shader, length, NULL, infoLog);
-		std::cerr << "ERROR::SHADER::COMPILATION_FAILED\n"
-			  << infoLog << std::endl;
-		return false;
-	}
-
-	return true;
-}
-
-bool programSuccessful(unsigned int program) {
-	int success, length = 512;
-	char infoLog[length];
-
-	glGetProgramiv(program, GL_LINK_STATUS, &success);
-
-	if (!success) {
-		glGetProgramInfoLog(program, length, NULL, infoLog);
-		std::cerr << "ERROR::PROGRAM::LINKED_FAILED\n"
-			  << infoLog << std::endl;
-		return false;
-	}
-
-	return true;
-}
-
-std::string readFile(std::ifstream& file) {
-    std::stringstream ss;
-    ss << file.rdbuf();
-    return ss.str();
-}

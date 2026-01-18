@@ -8,7 +8,7 @@ private:
     unsigned int ID;
 
 public:
-    VertexArray(const void* data, size_t size);
+    VertexArray();
     void addBuffer(const VertexBuffer& vb, const std::vector<unsigned int>& layout);
     ~VertexArray();
     void bind() const;
