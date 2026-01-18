@@ -35,8 +35,17 @@ string Shader::getFragPath() {
     return fragPath;
 }
 
-string Shader::getVertexPath() {
+void Shader::use() {
+    glUseProgram(ID);
+}
+
+string Shader::getVertexPath()
+{
     return vertexPath;
+}
+
+Shader::~Shader() {
+    glDeleteProgram(ID);
 }
 
 
