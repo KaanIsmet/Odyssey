@@ -63,7 +63,7 @@ Shader::Shader(std::string& vertexPath, std::string& fragPath) {
     std::ifstream fragFile{fragPath};
     if (!fragFile) {
         std::cerr << "Unable to get file";
-        throw std::runtime_error("Unable to open fragment shader: " + vertexPath);
+        throw std::runtime_error("Unable to open fragment shader: " + fragPath);
     }
     
     std::string vertexSource = readFile(vertexFile);
@@ -85,6 +85,9 @@ Shader::Shader(std::string& vertexPath, std::string& fragPath) {
     glDeleteShader(vertexShader);
     glDeleteShader(fragShader);
 }
+Shader::~Shader() {
+    glDeleteProgram(ID);
+}
 string Shader::getFragPath() {
     return fragPath;
 }
@@ -98,8 +101,9 @@ string Shader::getVertexPath()
     return vertexPath;
 }
 
-Shader::~Shader() {
-    glDeleteProgram(ID);
+unsigned int Shader::getID() {
+    return ID;
 }
+
 
 
