@@ -86,14 +86,78 @@ CMakeFiles/odyssey.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/odyssey.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaan/Desktop/projects/c++/Odyssey/src/main.cpp -o CMakeFiles/odyssey.dir/src/main.cpp.s
 
+CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o: CMakeFiles/odyssey.dir/flags.make
+CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o: /home/kaan/Desktop/projects/c++/Odyssey/src/render/IndexBuffer.cpp
+CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaan/Desktop/projects/c++/Odyssey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o -MF CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o.d -o CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o -c /home/kaan/Desktop/projects/c++/Odyssey/src/render/IndexBuffer.cpp
+
+CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaan/Desktop/projects/c++/Odyssey/src/render/IndexBuffer.cpp > CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.i
+
+CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaan/Desktop/projects/c++/Odyssey/src/render/IndexBuffer.cpp -o CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.s
+
+CMakeFiles/odyssey.dir/src/render/Shader.cpp.o: CMakeFiles/odyssey.dir/flags.make
+CMakeFiles/odyssey.dir/src/render/Shader.cpp.o: /home/kaan/Desktop/projects/c++/Odyssey/src/render/Shader.cpp
+CMakeFiles/odyssey.dir/src/render/Shader.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaan/Desktop/projects/c++/Odyssey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/odyssey.dir/src/render/Shader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/render/Shader.cpp.o -MF CMakeFiles/odyssey.dir/src/render/Shader.cpp.o.d -o CMakeFiles/odyssey.dir/src/render/Shader.cpp.o -c /home/kaan/Desktop/projects/c++/Odyssey/src/render/Shader.cpp
+
+CMakeFiles/odyssey.dir/src/render/Shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/odyssey.dir/src/render/Shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaan/Desktop/projects/c++/Odyssey/src/render/Shader.cpp > CMakeFiles/odyssey.dir/src/render/Shader.cpp.i
+
+CMakeFiles/odyssey.dir/src/render/Shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/odyssey.dir/src/render/Shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaan/Desktop/projects/c++/Odyssey/src/render/Shader.cpp -o CMakeFiles/odyssey.dir/src/render/Shader.cpp.s
+
+CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o: CMakeFiles/odyssey.dir/flags.make
+CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o: /home/kaan/Desktop/projects/c++/Odyssey/src/render/VertexArray.cpp
+CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaan/Desktop/projects/c++/Odyssey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o -MF CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o.d -o CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o -c /home/kaan/Desktop/projects/c++/Odyssey/src/render/VertexArray.cpp
+
+CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaan/Desktop/projects/c++/Odyssey/src/render/VertexArray.cpp > CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.i
+
+CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaan/Desktop/projects/c++/Odyssey/src/render/VertexArray.cpp -o CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.s
+
+CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o: CMakeFiles/odyssey.dir/flags.make
+CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o: /home/kaan/Desktop/projects/c++/Odyssey/src/render/VertexBuffer.cpp
+CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o: CMakeFiles/odyssey.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kaan/Desktop/projects/c++/Odyssey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o -MF CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o.d -o CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o -c /home/kaan/Desktop/projects/c++/Odyssey/src/render/VertexBuffer.cpp
+
+CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kaan/Desktop/projects/c++/Odyssey/src/render/VertexBuffer.cpp > CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.i
+
+CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kaan/Desktop/projects/c++/Odyssey/src/render/VertexBuffer.cpp -o CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.s
+
 # Object files for target odyssey
 odyssey_OBJECTS = \
-"CMakeFiles/odyssey.dir/src/main.cpp.o"
+"CMakeFiles/odyssey.dir/src/main.cpp.o" \
+"CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o" \
+"CMakeFiles/odyssey.dir/src/render/Shader.cpp.o" \
+"CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o" \
+"CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o"
 
 # External object files for target odyssey
 odyssey_EXTERNAL_OBJECTS =
 
 odyssey: CMakeFiles/odyssey.dir/src/main.cpp.o
+odyssey: CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o
+odyssey: CMakeFiles/odyssey.dir/src/render/Shader.cpp.o
+odyssey: CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o
+odyssey: CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o
 odyssey: CMakeFiles/odyssey.dir/build.make
 odyssey: CMakeFiles/odyssey.dir/compiler_depend.ts
 odyssey: vcpkg_installed/x64-linux/debug/lib/libglfw3.a
@@ -102,7 +166,7 @@ odyssey: vcpkg_installed/x64-linux/debug/lib/libglad.a
 odyssey: /usr/lib/librt.a
 odyssey: /usr/lib/libm.so
 odyssey: CMakeFiles/odyssey.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kaan/Desktop/projects/c++/Odyssey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable odyssey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kaan/Desktop/projects/c++/Odyssey/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable odyssey"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/odyssey.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/cmake -E copy_directory /home/kaan/Desktop/projects/c++/Odyssey/assets /home/kaan/Desktop/projects/c++/Odyssey/build/assets
 

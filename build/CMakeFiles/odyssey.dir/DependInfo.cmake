@@ -9,6 +9,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kaan/Desktop/projects/c++/Odyssey/src/main.cpp" "CMakeFiles/odyssey.dir/src/main.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/main.cpp.o.d"
+  "/home/kaan/Desktop/projects/c++/Odyssey/src/render/IndexBuffer.cpp" "CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o.d"
+  "/home/kaan/Desktop/projects/c++/Odyssey/src/render/Shader.cpp" "CMakeFiles/odyssey.dir/src/render/Shader.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/render/Shader.cpp.o.d"
+  "/home/kaan/Desktop/projects/c++/Odyssey/src/render/VertexArray.cpp" "CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o.d"
+  "/home/kaan/Desktop/projects/c++/Odyssey/src/render/VertexBuffer.cpp" "CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o" "gcc" "CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o.d"
   "" "odyssey" "gcc" "CMakeFiles/odyssey.dir/link.d"
   )
 

@@ -3,8 +3,16 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
+VertexArray::VertexArray() {
+    glGenVertexArrays(1, &ID);
+}
+
 VertexArray::VertexArray(const void* data, size_t size) {
     glGenVertexArrays(1, &ID);
+}
+
+unsigned int VertexArray::getID() {
+    return ID;
 }
 
 VertexArray::~VertexArray() {

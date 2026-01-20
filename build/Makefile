@@ -153,6 +153,102 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/render/IndexBuffer.o: src/render/IndexBuffer.cpp.o
+.PHONY : src/render/IndexBuffer.o
+
+# target to build an object file
+src/render/IndexBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o
+.PHONY : src/render/IndexBuffer.cpp.o
+
+src/render/IndexBuffer.i: src/render/IndexBuffer.cpp.i
+.PHONY : src/render/IndexBuffer.i
+
+# target to preprocess a source file
+src/render/IndexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.i
+.PHONY : src/render/IndexBuffer.cpp.i
+
+src/render/IndexBuffer.s: src/render/IndexBuffer.cpp.s
+.PHONY : src/render/IndexBuffer.s
+
+# target to generate assembly for a file
+src/render/IndexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.s
+.PHONY : src/render/IndexBuffer.cpp.s
+
+src/render/Shader.o: src/render/Shader.cpp.o
+.PHONY : src/render/Shader.o
+
+# target to build an object file
+src/render/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/render/Shader.cpp.o
+.PHONY : src/render/Shader.cpp.o
+
+src/render/Shader.i: src/render/Shader.cpp.i
+.PHONY : src/render/Shader.i
+
+# target to preprocess a source file
+src/render/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/render/Shader.cpp.i
+.PHONY : src/render/Shader.cpp.i
+
+src/render/Shader.s: src/render/Shader.cpp.s
+.PHONY : src/render/Shader.s
+
+# target to generate assembly for a file
+src/render/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/render/Shader.cpp.s
+.PHONY : src/render/Shader.cpp.s
+
+src/render/VertexArray.o: src/render/VertexArray.cpp.o
+.PHONY : src/render/VertexArray.o
+
+# target to build an object file
+src/render/VertexArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o
+.PHONY : src/render/VertexArray.cpp.o
+
+src/render/VertexArray.i: src/render/VertexArray.cpp.i
+.PHONY : src/render/VertexArray.i
+
+# target to preprocess a source file
+src/render/VertexArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.i
+.PHONY : src/render/VertexArray.cpp.i
+
+src/render/VertexArray.s: src/render/VertexArray.cpp.s
+.PHONY : src/render/VertexArray.s
+
+# target to generate assembly for a file
+src/render/VertexArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.s
+.PHONY : src/render/VertexArray.cpp.s
+
+src/render/VertexBuffer.o: src/render/VertexBuffer.cpp.o
+.PHONY : src/render/VertexBuffer.o
+
+# target to build an object file
+src/render/VertexBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o
+.PHONY : src/render/VertexBuffer.cpp.o
+
+src/render/VertexBuffer.i: src/render/VertexBuffer.cpp.i
+.PHONY : src/render/VertexBuffer.i
+
+# target to preprocess a source file
+src/render/VertexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.i
+.PHONY : src/render/VertexBuffer.cpp.i
+
+src/render/VertexBuffer.s: src/render/VertexBuffer.cpp.s
+.PHONY : src/render/VertexBuffer.s
+
+# target to generate assembly for a file
+src/render/VertexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odyssey.dir/build.make CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.s
+.PHONY : src/render/VertexBuffer.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +261,18 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/render/IndexBuffer.o"
+	@echo "... src/render/IndexBuffer.i"
+	@echo "... src/render/IndexBuffer.s"
+	@echo "... src/render/Shader.o"
+	@echo "... src/render/Shader.i"
+	@echo "... src/render/Shader.s"
+	@echo "... src/render/VertexArray.o"
+	@echo "... src/render/VertexArray.i"
+	@echo "... src/render/VertexArray.s"
+	@echo "... src/render/VertexBuffer.o"
+	@echo "... src/render/VertexBuffer.i"
+	@echo "... src/render/VertexBuffer.s"
 .PHONY : help
 
 

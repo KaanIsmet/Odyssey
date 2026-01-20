@@ -25,6 +25,7 @@ public:
     void use();
     string getVertexPath();
     string getFragPath();
+    unsigned int getID();
     bool checkCompileErrors(unsigned int shader, string type);
 };
 #endif

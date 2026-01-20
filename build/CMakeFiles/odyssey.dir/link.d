@@ -3,6 +3,10 @@ odyssey: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/odyssey.dir/src/main.cpp.o \
+  CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o \
+  CMakeFiles/odyssey.dir/src/render/Shader.cpp.o \
+  CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o \
+  CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o \
   vcpkg_installed/x64-linux/debug/lib/libglfw3.a \
   vcpkg_installed/x64-linux/debug/lib/libglm.a \
   vcpkg_installed/x64-linux/debug/lib/libglad.a \
@@ -43,6 +47,14 @@ odyssey: \
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o:
 
 CMakeFiles/odyssey.dir/src/main.cpp.o:
+
+CMakeFiles/odyssey.dir/src/render/IndexBuffer.cpp.o:
+
+CMakeFiles/odyssey.dir/src/render/Shader.cpp.o:
+
+CMakeFiles/odyssey.dir/src/render/VertexArray.cpp.o:
+
+CMakeFiles/odyssey.dir/src/render/VertexBuffer.cpp.o:
 
 vcpkg_installed/x64-linux/debug/lib/libglfw3.a:
 
